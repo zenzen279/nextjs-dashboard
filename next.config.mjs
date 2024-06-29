@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-    sassOptions : {
-    }
+    sassOptions: {
+    },
+    experimental: {
+        ppr: 'incremental',
+    },
 };
 
 export default nextConfig;
