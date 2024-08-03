@@ -4,7 +4,7 @@ const nextConfig = {
     sassOptions: {
     },
     experimental: {
-        ppr: 'incremental',
+        //ppr: 'incremental',
     },
 };
 
